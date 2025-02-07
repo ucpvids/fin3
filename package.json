@@ -1,3 +1,19 @@
-"scripts": {
-  "build": "next build"  // ou qualquer comando de build dependendo do seu projeto
+{
+  "name": "my-next-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "16.x"
+  }
 }
