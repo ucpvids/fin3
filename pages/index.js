@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'next.js';
 
 export default function Home() {
   const [ativo, setAtivo] = useState('AAPL');
